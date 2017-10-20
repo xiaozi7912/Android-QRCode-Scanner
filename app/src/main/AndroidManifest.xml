@@ -2,6 +2,7 @@
 <manifest package="com.xiaozi.android.qrcode.scanner"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.CAMERA" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,6 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".GenerateQRCodeActivity"></activity>
+        <activity
+            android:name=".ScannerActivity"
+            android:screenOrientation="userLandscape"></activity>
+        <activity android:name=".ScanResultActivity"></activity>
     </application>
 
 </manifest>
