@@ -28,4 +28,5 @@ dependencies {
     compile project(':module-framework')
     compile 'com.google.zxing:android-core:3.3.0'
     compile 'me.dm7.barcodescanner:zxing:1.9.8'
+    compile 'com.android.support:customtabs:23.3.0'
 }
